@@ -1,0 +1,19 @@
+{
+  "name": "stripe-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "williams",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "stripe": "^18.3.0"
+  }
+}
